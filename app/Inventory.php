@@ -131,5 +131,255 @@ use Illuminate\Database\Eloquent\Model;
  */
 class Inventory extends Model
 {
+    public function slot1()
+    {
+        $item = Item::findOrFail($this->getOriginal('item_id_1'));
 
+        $slot = new InventorySlot($item, $this->getOriginal('item_quantity_1'));
+
+        return $slot;
+    }
+
+    public function slot2()
+    {
+        $item = Item::findOrFail($this->getOriginal('item_id_2'));
+
+        $slot = new InventorySlot($item, $this->getOriginal('item_quantity_2'));
+
+        return $slot;
+    }
+
+    public function slot3()
+    {
+        $item = Item::findOrFail($this->getOriginal('item_id_3'));
+
+        $slot = new InventorySlot($item, $this->getOriginal('item_quantity_3'));
+
+        return $slot;
+    }
+
+    public function slot4()
+    {
+        $item = Item::findOrFail($this->getOriginal('item_id_4'));
+
+        $slot = new InventorySlot($item, $this->getOriginal('item_quantity_4'));
+
+        return $slot;
+    }
+
+    public function slot5()
+    {
+        $item = Item::findOrFail($this->getOriginal('item_id_5'));
+
+        $slot = new InventorySlot($item, $this->getOriginal('item_quantity_5'));
+
+        return $slot;
+    }
+
+    public function slot6()
+    {
+        $item = Item::findOrFail($this->getOriginal('item_id_6'));
+
+        $slot = new InventorySlot($item, $this->getOriginal('item_quantity_6'));
+
+        return $slot;
+    }
+
+    public function slot7()
+    {
+        $item = Item::findOrFail($this->getOriginal('item_id_7'));
+
+        $slot = new InventorySlot($item, $this->getOriginal('item_quantity_7'));
+
+        return $slot;
+    }
+
+    public function slot8()
+    {
+        $item = Item::findOrFail($this->getOriginal('item_id_8'));
+
+        $slot = new InventorySlot($item, $this->getOriginal('item_quantity_8'));
+
+        return $slot;
+    }
+
+    public function slot9()
+    {
+        $item = Item::findOrFail($this->getOriginal('item_id_9'));
+
+        $slot = new InventorySlot($item, $this->getOriginal('item_quantity_9'));
+
+        return $slot;
+    }
+
+    public function slot10()
+    {
+        $item = Item::findOrFail($this->getOriginal('item_id_10'));
+
+        $slot = new InventorySlot($item, $this->getOriginal('item_quantity_10'));
+
+        return $slot;
+    }
+
+    public function slot11()
+    {
+        $item = Item::findOrFail($this->getOriginal('item_id_11'));
+
+        $slot = new InventorySlot($item, $this->getOriginal('item_quantity_11'));
+
+        return $slot;
+    }
+
+    public function slot12()
+    {
+        $item = Item::findOrFail($this->getOriginal('item_id_12'));
+
+        $slot = new InventorySlot($item, $this->getOriginal('item_quantity_12'));
+
+        return $slot;
+    }
+
+    public function slot13()
+    {
+        $item = Item::findOrFail($this->getOriginal('item_id_13'));
+
+        $slot = new InventorySlot($item, $this->getOriginal('item_quantity_13'));
+
+        return $slot;
+    }
+
+    public function slot14()
+    {
+        $item = Item::findOrFail($this->getOriginal('item_id_14'));
+
+        $slot = new InventorySlot($item, $this->getOriginal('item_quantity_14'));
+
+        return $slot;
+    }
+
+    public function slot15()
+    {
+        $item = Item::findOrFail($this->getOriginal('item_id_15'));
+
+        $slot = new InventorySlot($item, $this->getOriginal('item_quantity_15'));
+
+        return $slot;
+    }
+
+    public function slot16()
+    {
+        $item = Item::findOrFail($this->getOriginal('item_id_16'));
+
+        $slot = new InventorySlot($item, $this->getOriginal('item_quantity_16'));
+
+        return $slot;
+    }
+
+    public function slot17()
+    {
+        $item = Item::findOrFail($this->getOriginal('item_id_17'));
+
+        $slot = new InventorySlot($item, $this->getOriginal('item_quantity_17'));
+
+        return $slot;
+    }
+
+    public function slot18()
+    {
+        $item = Item::findOrFail($this->getOriginal('item_id_18'));
+
+        $slot = new InventorySlot($item, $this->getOriginal('item_quantity_18'));
+
+        return $slot;
+    }
+
+    public function slot19()
+    {
+        $item = Item::findOrFail($this->getOriginal('item_id_19'));
+
+        $slot = new InventorySlot($item, $this->getOriginal('item_quantity_19'));
+
+        return $slot;
+    }
+
+    public function slot20()
+    {
+        $item = Item::findOrFail($this->getOriginal('item_id_20'));
+
+        $slot = new InventorySlot($item, $this->getOriginal('item_quantity_20'));
+
+        return $slot;
+    }
+
+    public function slot21()
+    {
+        $item = Item::findOrFail($this->getOriginal('item_id_21'));
+
+        $slot = new InventorySlot($item, $this->getOriginal('item_quantity_21'));
+
+        return $slot;
+    }
+
+    public function slot22()
+    {
+        $item = Item::findOrFail($this->getOriginal('item_id_22'));
+
+        $slot = new InventorySlot($item, $this->getOriginal('item_quantity_22'));
+
+        return $slot;
+    }
+
+    public function slot23()
+    {
+        $item = Item::findOrFail($this->getOriginal('item_id_23'));
+
+        $slot = new InventorySlot($item, $this->getOriginal('item_quantity_23'));
+
+        return $slot;
+    }
+
+    public function slot24()
+    {
+        $item = Item::findOrFail($this->getOriginal('item_id_24'));
+
+        $slot = new InventorySlot($item, $this->getOriginal('item_quantity_24'));
+
+        return $slot;
+    }
+
+    public function slot25()
+    {
+        $item = Item::findOrFail($this->getOriginal('item_id_25'));
+
+        $slot = new InventorySlot($item, $this->getOriginal('item_quantity_25'));
+
+        return $slot;
+    }
+
+    public function slot26()
+    {
+        $item = Item::findOrFail($this->getOriginal('item_id_26'));
+
+        $slot = new InventorySlot($item, $this->getOriginal('item_quantity_26'));
+
+        return $slot;
+    }
+
+    public function slot27()
+    {
+        $item = Item::findOrFail($this->getOriginal('item_id_27'));
+
+        $slot = new InventorySlot($item, $this->getOriginal('item_quantity_27'));
+
+        return $slot;
+    }
+
+    public function slot28()
+    {
+        $item = Item::findOrFail($this->getOriginal('item_id_28'));
+
+        $slot = new InventorySlot($item, $this->getOriginal('item_quantity_28'));
+
+        return $slot;
+    }
 }
