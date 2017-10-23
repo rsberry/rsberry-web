@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateNPCsTable extends Migration
+class CreateObjectsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,10 @@ class CreateNPCsTable extends Migration
      */
     public function up()
     {
-        Schema::create('n_p_cs', function (Blueprint $table) {
+        Schema::create('objects', function (Blueprint $table) {
             $table->integer('id');
             $table->string('name', 63);
-            $table->integer('combat');
-            $table->integer('health');
+            $table->string('description', 127);
             $table->timestamps();
         });
     }
@@ -29,6 +28,6 @@ class CreateNPCsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('n_p_cs');
+        Schema::dropIfExists('objects');
     }
 }
