@@ -6200,7 +6200,7 @@ INSERT INTO rsberry.objects (id, name, description) VALUES ("6638", "null", "It'
 INSERT INTO rsberry.objects (id, name, description) VALUES ("6639", "Canopic Jar", "Has a lid shaped like a bug. Disgusting! I think there's a stomach inside.");
 INSERT INTO rsberry.objects (id, name, description) VALUES ("6640", "null", "It's a null.");
 INSERT INTO rsberry.objects (id, name, description) VALUES ("6641", "Canopic Jar", "Has a lid shaped like an ape. Eeew! I think it contains someone's intestines.");
-INSERT INTO rsberry.objects (id, name, description) VALUES ("6642", "- Holds the ceiling up. -");
+INSERT INTO rsberry.objects (id, name, description) VALUES ("6642", "", "- Holds the ceiling up. -");
 INSERT INTO rsberry.objects (id, name, description) VALUES ("6643", "Doorway", "Opens into another area, come on, I know this.");
 INSERT INTO rsberry.objects (id, name, description) VALUES ("6644", "Ceremonial table", "Useful for putting things on.");
 INSERT INTO rsberry.objects (id, name, description) VALUES ("6645", "Ladder", "A ladder!! Never seen one of those before.");
@@ -8524,7 +8524,6 @@ INSERT INTO rsberry.objects (id, name, description) VALUES ("8962", "Door", "App
 INSERT INTO rsberry.objects (id, name, description) VALUES ("8963", "Door", "Not as difficult to walk through as it was a minute ago.");
 INSERT INTO rsberry.objects (id, name, description) VALUES ("8964", "null", "It's a null.");
 INSERT INTO rsberry.objects (id, name, description) VALUES ("8965", "null", "It's a null.");
-INSERT INTO rsberry.objects (id, name, description) VALUES ("1337", "Created by Fasga -");
 INSERT INTO rsberry.objects (id, name, description) VALUES ("8966", "Steps", "Leads to the surface.");
 INSERT INTO rsberry.objects (id, name, description) VALUES ("8967", "Door", "A sturdy looking door, propped shut with a support.");
 INSERT INTO rsberry.objects (id, name, description) VALUES ("8968", "null", "It's a null.");
@@ -10165,7 +10164,7 @@ INSERT INTO rsberry.objects (id, name, description) VALUES ("10602", "null", "It
 INSERT INTO rsberry.objects (id, name, description) VALUES ("10603", "null", "It's a null.");
 INSERT INTO rsberry.objects (id, name, description) VALUES ("10604", "null", "It's a null.");
 INSERT INTO rsberry.objects (id, name, description) VALUES ("10605", "Danger Sign", "Danger");
-INSERT INTO rsberry.objects (id, name, description) VALUES ("10606", "- -");
+INSERT INTO rsberry.objects (id, name, description) VALUES ("10606", "-", "-");
 INSERT INTO rsberry.objects (id, name, description) VALUES ("10607", "Bronze Chest", "A strangely decorated chest, the open lock is painted brown.");
 INSERT INTO rsberry.objects (id, name, description) VALUES ("10608", "Bronze Chest", "A strangely decorated chest, the open lock is painted crimson.");
 INSERT INTO rsberry.objects (id, name, description) VALUES ("10609", "Bronze Chest", "A strangely decorated chest, the open lock is painted black.");
@@ -13562,4 +13561,4 @@ INSERT INTO rsberry.objects (id, name, description) VALUES ("13999", "Rope", "Th
 INSERT INTO rsberry.objects (id, name, description) VALUES ("14000", "null", "It's a null.");
 INSERT INTO rsberry.objects (id, name, description) VALUES ("14001", "null", "It's a null.");
 INSERT INTO rsberry.objects (id, name, description) VALUES ("14002", "Warning sign", "A sign warning of danger.");
-INSERT INTO rsberry.objects (id, name, description) VALUES ("14003", "Grass", "Why do I never take time to look at the grass?
+INSERT INTO rsberry.objects (id, name, description) VALUES ("14003", "Grass", "Why do I never take time to look at the grass?");
